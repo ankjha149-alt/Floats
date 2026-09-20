@@ -1,2 +1,10 @@
 # Floats
 something like A native macOS utility project
+
+
+License:
+Copyright © 2026 Ankit Kumar Jha. All rights reserved.
+
+Floats is publicly available for viewing and personal evaluation. No permission is granted to modify, distribute, reproduce, sublicense, or create derivative works from this software without prior written permission from the copyright holder.
+
+For permission to modify or redistribute Floats, please contact the copyright holder.
