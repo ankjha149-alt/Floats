@@ -1,0 +1,62 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B00000000000000000000001 /* FloatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000001 /* FloatsApp.swift */; };
+		B00000000000000000000002 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000002 /* AppDelegate.swift */; };
+		B00000000000000000000003 /* FloatNotesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000003 /* FloatNotesModel.swift */; };
+		B00000000000000000000004 /* FloatNoteViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000004 /* FloatNoteViews.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F00000000000000000000001 /* FloatsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatsApp.swift; sourceTree = "<group>"; };
+		F00000000000000000000002 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F00000000000000000000003 /* FloatNotesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatNotesModel.swift; sourceTree = "<group>"; };
+		F00000000000000000000004 /* FloatNoteViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatNoteViews.swift; sourceTree = "<group>"; };
+		F00000000000000000000005 /* Floats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Floats.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C00000000000000000000001 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+		J00000000000000000000001 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXGroup section */
+		D00000000000000000000001 = {isa = PBXGroup; children = (D00000000000000000000002 /* Floats */, D00000000000000000000003 /* Products */); sourceTree = "<group>"; };
+		D00000000000000000000002 /* Floats */ = {isa = PBXGroup; children = (F00000000000000000000001 /* FloatsApp.swift */, F00000000000000000000002 /* AppDelegate.swift */, F00000000000000000000003 /* FloatNotesModel.swift */, F00000000000000000000004 /* FloatNoteViews.swift */); path = Floats; sourceTree = "<group>"; };
+		D00000000000000000000003 /* Products */ = {isa = PBXGroup; children = (F00000000000000000000005 /* Floats.app */); name = Products; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E00000000000000000000001 /* Floats */ = {isa = PBXNativeTarget; buildConfigurationList = G00000000000000000000002 /* Build configuration list for PBXNativeTarget "Floats" */; buildPhases = (H00000000000000000000001 /* Sources */, C00000000000000000000001 /* Frameworks */, J00000000000000000000001 /* Resources */, ); buildRules = (); dependencies = (); name = Floats; productName = Floats; productReference = F00000000000000000000005 /* Floats.app */; productType = "com.apple.product-type.application"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00000000000000000000002 /* Project object */ = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = YES; LastUpgradeCheck = 1600; TargetAttributes = {E00000000000000000000001 = {CreatedOnToolsVersion = 16.0; }; }; }; buildConfigurationList = G00000000000000000000001 /* Build configuration list for PBXProject "Floats" */; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base, ); mainGroup = D00000000000000000000001; productRefGroup = D00000000000000000000003 /* Products */; projectDirPath = ""; projectRoot = ""; targets = (E00000000000000000000001 /* Floats */, ); };
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		H00000000000000000000001 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (B00000000000000000000001 /* FloatsApp.swift in Sources */, B00000000000000000000002 /* AppDelegate.swift in Sources */, B00000000000000000000003 /* FloatNotesModel.swift in Sources */, B00000000000000000000004 /* FloatNoteViews.swift in Sources */, ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		I00000000000000000000001 /* Debug project */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; CLANG_WARN_DOCUMENTATION_COMMENTS = YES; MACOSX_DEPLOYMENT_TARGET = 13.0; SDKROOT = macosx; SWIFT_VERSION = 5.0; }; name = Debug; };
+		I00000000000000000000002 /* Release project */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; CLANG_WARN_DOCUMENTATION_COMMENTS = YES; MACOSX_DEPLOYMENT_TARGET = 13.0; SDKROOT = macosx; SWIFT_VERSION = 5.0; }; name = Release; };
+		I00000000000000000000003 /* Debug target */ = {isa = XCBuildConfiguration; buildSettings = {GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = Floats; INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity"; INFOPLIST_KEY_LSUIElement = YES; INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Ankit Kumar Jha"; MACOSX_DEPLOYMENT_TARGET = 13.0; PRODUCT_BUNDLE_IDENTIFIER = com.ankjha149.floats; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = macosx; SWIFT_VERSION = 5.0; }; name = Debug; };
+		I00000000000000000000004 /* Release target */ = {isa = XCBuildConfiguration; buildSettings = {GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = Floats; INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity"; INFOPLIST_KEY_LSUIElement = YES; INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Ankit Kumar Jha"; MACOSX_DEPLOYMENT_TARGET = 13.0; PRODUCT_BUNDLE_IDENTIFIER = com.ankjha149.floats; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = macosx; SWIFT_VERSION = 5.0; }; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		G00000000000000000000001 /* Build configuration list for PBXProject "Floats" */ = {isa = XCConfigurationList; buildConfigurations = (I00000000000000000000001 /* Debug project */, I00000000000000000000002 /* Release project */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		G00000000000000000000002 /* Build configuration list for PBXNativeTarget "Floats" */ = {isa = XCConfigurationList; buildConfigurations = (I00000000000000000000003 /* Debug target */, I00000000000000000000004 /* Release target */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = A00000000000000000000002 /* Project object */;
+}
