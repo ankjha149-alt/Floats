@@ -18,4 +18,4 @@ This repository candidate is a fresh implementation based on feature details rec
 
 ## Limits
 
-This Mac has Apple command-line tools but not the full Xcode app, so `xcodebuild` could not be run. The app has not been launched or compared with the original. Review it before treating it as a release. No original screenshots were available; a new icon has been designed for this reconstruction.
+Xcode is installed, but `xcodebuild` could not run because the Xcode license agreement has not been accepted. The app is installed in `~/Applications/Floats.app`, its ad hoc signature verifies, and it has not been launched or compared with the original. Review it before treating it as a release. No original screenshots were available; a new icon has been designed for this reconstruction.
