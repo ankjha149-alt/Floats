@@ -13,9 +13,9 @@ A native macOS floating notes app. This is a fresh implementation based on the f
 
 ## Build
 
-Open `Floats.xcodeproj` in Xcode and build the `Floats` scheme. The project uses SwiftUI, AppKit, and PDFKit and targets macOS 13.0 or newer. No third-party packages are required.
+Open `Floats.xcodeproj` in Xcode, select the shared `Floats` scheme, and build. The project uses SwiftUI, AppKit, and PDFKit, targets macOS 13.0 or newer, and has no third-party packages.
 
-The project includes a shared `Floats` scheme and targets macOS 13.0 or newer. The local app bundle in `build/Floats.app` was compiled for Apple silicon with the installed Swift compiler. The bundle is ad hoc signed for local use; it is not Developer ID signed or notarized. This Mac has Apple command-line tools but not the full Xcode app, so an `xcodebuild` build could not be run here.
+The local app bundle in `build/Floats.app` was compiled for Apple silicon with Swift 6.4.2 and ad hoc signed. It is not Developer ID signed or notarized. This Mac has Apple command-line tools but not the full Xcode app, so an `xcodebuild` build could not be run here.
 
 ## Project structure
 
