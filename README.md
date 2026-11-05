@@ -10,6 +10,7 @@ A native macOS floating notes app. This is a fresh implementation based on the f
 - Menu bar controls for creating notes and showing or hiding note windows
 - Local note persistence in `~/Library/Application Support/Floats/notes.json`
 - Export notes as a text-based PDF
+- Custom 1024px macOS app icon with standard asset-catalog sizes
 
 ## Build
 
@@ -23,12 +24,14 @@ The local app bundle in `build/Floats.app` was compiled for Apple silicon with S
 - `Floats/AppDelegate.swift` — menu bar item and floating windows
 - `Floats/FloatNotesModel.swift` — note model and local persistence
 - `Floats/FloatNoteViews.swift` — note editor, manager, and PDF export
+- `Floats/Assets.xcassets/AppIcon.appiconset` — app icon and size variants
+- `Scripts/GenerateAppIcon.swift` — reproducible icon artwork generator
 
 ## Source provenance and limitations
 
 The original source archive was referred to in project chats as `FloatNotes-FINAL-Working-Source.zip`, but no archive was attached to the ChatGPT project and the referenced Desktop backup folder was empty. This implementation follows the recorded v1.1 feature notes; its UI and behavior may differ from the earlier app. The source has type-checked and produced a local app bundle, but the app has not been launched or compared with the earlier app. Treat it as a reconstruction for review, not as recovered original source.
 
-No screenshots or app icon were available.
+No original screenshots were available. This reconstruction includes a newly designed high-resolution app icon.
 
 ## License
 
